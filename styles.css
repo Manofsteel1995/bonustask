@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F9FCFC;
+}
+.header-text{
+    text-align: center;
+    padding-top: 20px;
+}
+.left-container{
+    min-height: 100vh;
+    width: 45%;
+    overflow: hidden;
+}
+
+.left-container .my-image{
+    width: 100%;
+}
+
+
+.right-container{
+    min-height: 100vh;
+    width: 45%;
+    
+}
+.container{
+    display: flex;
+    margin:100px;
+    justify-content: space-between;
+}
+.right-container h1{
+    text-align: center;
+
+}
+
+hr{
+    width: 67.5px;
+   text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border: 2px solid #D89616;
+}
+.right-container p{
+text-align: center;
+width: 513px;
+height: 168px;
+left: 551px;
+top: 301px;
+padding-top: 100px;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.form-container{
+    width: 55%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: -1px -2px 21px -2px rgba(0,0,0,0.44);
+    -webkit-box-shadow: -1px -2px 21px -2px rgba(0,0,0,0.44);
+    -moz-box-shadow: -1px -2px 21px -2px rgba(0,0,0,0.44);
+}
+.input-container, .button-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.input-container label{
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+.input-container input, .input-container textarea{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+.button-container{
+    justify-content: end;
+}
+.button-container  button{
+    width:200px ;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(58, 58, 211);
+    border: unset;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin-left:auto ;
+}
+.form-container h3{
+    font-size: 50px;
+    font-weight: normal;
+}
